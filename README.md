@@ -14,14 +14,13 @@ It is designed to help users inspect PATH-related stuff in a simple and readable
 ## Installation 
 
 ### Windows
-1. Download latest version zip file 
-(https://github.com/WilmeGM/lsep/releases)
+1. Check the latest release and download the win-x64 zip file attached (https://github.com/WilmeGM/lsep/releases)
 3. Extract lsep.exe
 4. Move it to a folder in your PATH (e.g. C:\Tools or whichever)
 5. Run: lsep --version
 
 ### Linux / macOS
-1. Download the latest compressed file for your OS (https://github.com/WilmeGM/lsep/releases)
+1. Go to the releases page (https://github.com/WilmeGM/lsep/releases) find latest and download the appropriate version for your system attached (linux-x64.zip or osx-x64.tar.gz or osx-arm64.tar.gz)
 2. Extract the lsep binary
 3. chmod +x lsep
 4. sudo mv lsep /usr/local/bin/lsep

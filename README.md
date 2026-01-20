@@ -11,20 +11,34 @@ It is designed to help users inspect PATH-related stuff in a simple and readable
 - Built-in version command.
 - Cross-platform support (Windows, Linux, macOS).  
 
-## Installation 
+## Installation
 
-### Windows
-1. Check the latest release and download the win-x64 zip file attached (https://github.com/WilmeGM/lsep/releases)
-3. Extract lsep.exe
-4. Move it to a folder in your PATH (e.g. C:\Tools or whichever)
-5. Run: lsep --version
+### 🖥️ Windows
 
-### Linux / macOS
-1. Go to the releases page (https://github.com/WilmeGM/lsep/releases) find latest and download the appropriate version for your system attached (linux-x64.zip or osx-x64.tar.gz or osx-arm64.tar.gz)
-2. Extract the lsep binary
-3. chmod +x lsep
-4. sudo mv lsep /usr/local/bin/lsep
-5. Run: lsep --version
+1. **Download:** Go to the [Latest Releases](https://github.com/WilmeGM/lsep/releases) and download the `win-x64.zip` file.
+2. **Extract:** Extract the contents to locate the `lsep.exe` executable.
+3. **Move to PATH:** Move `lsep.exe` to a folder currently in your System PATH (e.g., `C:\Tools` or `C:\Windows`). 
+    * *Tip: If you create a new folder, remember to add that folder to your Environment Variables.*
+4. **Verify:** Open a terminal (PowerShell or CMD) and run:
+   ```powershell
+   lsep --version
+
+**🍎 macOS / 🐧 Linux**
+
+1. **Download:** Visit the [Latest Releases](https://github.com/WilmeGM/lsep/releases) and download the archive for your system:
+   * **Linux:** linux-x64.zip
+   * **macOS (Intel):** osx-x64.tar.gz
+   * **macOS (Apple Silicon/M-Series):** osx-arm64.tar.gz
+2. **Extract & Prepare:** Open your terminal and run the following:
+   ```bash
+   tar -xzf osx-arm64.tar.gz  
+   chmod +x lsep
+4. **Install Globally:** Move the binary to /usr/local/bin:
+   ```bash
+   sudo mv lsep /usr/local/bin/lsep
+6. **Verify:** Run the following to ensure success:
+   ```bash
+   lsep --version
 
 ## Usage
 ```

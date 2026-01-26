@@ -16,20 +16,18 @@
                       having various options to format, modify, count, check, and more, your entries
                       from PATH variable.
 
-                    Options:
+                    Flags:
                       --version, -v   Show current lsep version
                       --help, -h      Show this help message
+                      --unique        Show only distinct entries
                       more options soon...
 
                     Examples:
                       lsep
                           List all PATH entries
-
                       lsep --help (or -h)
-                          Show this help message
-
                       lsep --version
-                          Show this help message
+                      lsep --unique
                     """);
         }
     }

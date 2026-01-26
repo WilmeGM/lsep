@@ -16,10 +16,10 @@ namespace lsep
             }
 
             if (args.Length > 1) Console.WriteLine("are you trying to use multiples flags? That is not possible for now.");
-            else if (args.Contains("--help") || args.Contains("-h")) HelpFlag.PrintHelpMessage();
-            else if (args.Contains("--version") || args.Contains("-v")) VersionFlag.PrintVersion();
-            else if (args.Contains("--unique") || args.Contains("-u")) UniqueFlag.PrintUniqueEntries();
-            else if (args.Contains("--numbered") || args.Contains("-n")) NumberedFlag.PrintNumberedEntries();
+            else if (args.Contains(ApplicationStrings.HELP) || args.Contains(ApplicationStrings.HELP_SHORTED)) HelpFlag.PrintHelpMessage();
+            else if (args.Contains(ApplicationStrings.VERSION) || args.Contains(ApplicationStrings.VERSION_SHORTED)) VersionFlag.PrintVersion();
+            else if (args.Contains(ApplicationStrings.UNIQUE) || args.Contains(ApplicationStrings.UNIQUE_SHORTED)) UniqueFlag.PrintUniqueEntries();
+            else if (args.Contains(ApplicationStrings.NUMBERED) || args.Contains(ApplicationStrings.NUMBERED_SHORTED)) NumberedFlag.PrintNumberedEntries();
             else Console.WriteLine("option not found");
         }
     }

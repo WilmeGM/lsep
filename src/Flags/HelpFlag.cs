@@ -17,17 +17,19 @@
                       from PATH variable.
 
                     Flags:
-                      --version, -v   Show current lsep version
-                      --help, -h      Show this help message
-                      --unique        Show only distinct entries
+                      --version, -v     Show current lsep version
+                      --help, -h        Show this help message
+                      --unique, -u      Show only distinct entries
+                      --numbered, -n    Show entries numbered  
                       more options soon...
 
                     Examples:
                       lsep
                           List all PATH entries
                       lsep --help (or -h)
-                      lsep --version
-                      lsep --unique
+                      lsep --version (or -v)
+                      lsep --unique (or -u)
+                      lsep --numbered (or -n)
                     """);
         }
     }

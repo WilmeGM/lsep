@@ -15,10 +15,12 @@ namespace lsep
                 return;
             }
 
-            if (args.Contains("--help") || args.Contains("-h")) HelpFlag.PrintHelpMessage();
+            if (args.Length > 1) Console.WriteLine("are you trying to use multiples flags? That is not possible for now.");
+            else if (args.Contains("--help") || args.Contains("-h")) HelpFlag.PrintHelpMessage();
             else if (args.Contains("--version") || args.Contains("-v")) VersionFlag.PrintVersion();
-            else if (args.Contains("--unique")) UniqueFlag.PrintUniqueEntries();
-            else Console.WriteLine("options not found");
+            else if (args.Contains("--unique") || args.Contains("-u")) UniqueFlag.PrintUniqueEntries();
+            else if (args.Contains("--numbered") || args.Contains("-n")) NumberedFlag.PrintNumberedEntries();
+            else Console.WriteLine("option not found");
         }
     }
 }

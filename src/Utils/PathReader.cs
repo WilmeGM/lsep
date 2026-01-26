@@ -1,4 +1,4 @@
-﻿namespace lsep
+﻿namespace lsep.Utils
 {
     internal class PathReader
     {

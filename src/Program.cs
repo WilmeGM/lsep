@@ -17,6 +17,7 @@ namespace lsep
 
             if (args.Contains("--help") || args.Contains("-h")) HelpFlag.PrintHelpMessage();
             else if (args.Contains("--version") || args.Contains("-v")) VersionFlag.PrintVersion();
+            else if (args.Contains("--unique")) UniqueFlag.PrintUniqueEntries();
             else Console.WriteLine("options not found");
         }
     }

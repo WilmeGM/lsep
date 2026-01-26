@@ -1,5 +1,5 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="lsep.csproj" />
+    <Project Path="./src/lsep.csproj" />
   </Folder>
 </Solution>

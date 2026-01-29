@@ -21,6 +21,7 @@
                       --help, -h        Show this help message
                       --unique, -u      Show only distinct entries
                       --numbered, -n    Show entries numbered  
+                      --count, -c       Show entries count
                       more options soon...
 
                     Examples:
@@ -30,6 +31,7 @@
                       lsep --version (or -v)
                       lsep --unique (or -u)
                       lsep --numbered (or -n)
+                      lsep --count (or -c)
                     """);
         }
     }

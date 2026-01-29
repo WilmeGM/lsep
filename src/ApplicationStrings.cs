@@ -14,6 +14,9 @@
 
         public const string NUMBERED = "--numbered";
         public const string NUMBERED_SHORTED = "-n";
+
+        public const string COUNT = "--count";
+        public const string COUNT_SHORTED = "-c";
         #endregion
     }
 }

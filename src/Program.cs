@@ -20,6 +20,7 @@ namespace lsep
             else if (args.Contains(ApplicationStrings.VERSION) || args.Contains(ApplicationStrings.VERSION_SHORTED)) VersionFlag.PrintVersion();
             else if (args.Contains(ApplicationStrings.UNIQUE) || args.Contains(ApplicationStrings.UNIQUE_SHORTED)) UniqueFlag.PrintUniqueEntries();
             else if (args.Contains(ApplicationStrings.NUMBERED) || args.Contains(ApplicationStrings.NUMBERED_SHORTED)) NumberedFlag.PrintNumberedEntries();
+            else if (args.Contains(ApplicationStrings.COUNT) || args.Contains(ApplicationStrings.COUNT_SHORTED)) CountFlag.PrintEntriesCount();
             else Console.WriteLine("option not found");
         }
     }

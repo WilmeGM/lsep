@@ -33,6 +33,7 @@
                       lsep --unique (or -u)
                       lsep --numbered (or -n)
                       lsep --count (or -c)
+                      lsep --exists (or -e)
                     """);
         }
     }

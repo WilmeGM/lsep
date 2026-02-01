@@ -17,6 +17,9 @@
 
         public const string COUNT = "--count";
         public const string COUNT_SHORTED = "-c";
+
+        public const string EXISTS = "--exists";
+        public const string EXISTS_SHORTED = "-e";
         #endregion
     }
 }

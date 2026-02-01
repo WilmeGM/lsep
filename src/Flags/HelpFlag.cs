@@ -22,6 +22,7 @@
                       --unique, -u      Show only distinct entries
                       --numbered, -n    Show entries numbered  
                       --count, -c       Show entries count
+                      --exists, -e      Show only entries that really exist on disk
                       more options soon...
 
                     Examples:

@@ -23,6 +23,7 @@
                       --numbered, -n    Show entries numbered  
                       --count, -c       Show entries count
                       --exists, -e      Show only entries that really exist on disk
+                      --missing, -m     Show only entries that do not exist on disk
                       more options soon...
 
                     Examples:

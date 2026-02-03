@@ -20,6 +20,9 @@
 
         public const string EXISTS = "--exists";
         public const string EXISTS_SHORTED = "-e";
+
+        public const string MISSING = "--missing";
+        public const string MISSING_SHORTED = "-m";
         #endregion
     }
 }

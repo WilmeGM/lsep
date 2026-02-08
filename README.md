@@ -42,7 +42,7 @@ It is designed to help users inspect PATH-related stuff in a simple and readable
 
 ## Usage
 ```
-lsep [options]
+lsep [option]
 ```
 
 ### Options
@@ -53,6 +53,20 @@ Display help and usage information
 - `--version`, `-v`  
 Display the current version of lsep
 
+- `--unique`, `-u`  
+Show only distinct entries
+
+- `--numbered`, `-n`  
+Show entries numbered
+
+- `--count`, `-c`  
+Show entries count
+
+- `--exists`, `-e`  
+Show only entries that really exist on disk
+
+- `--missing`, `-m`  
+Show only entries that do not exist on disk
 ---
 
 ## Examples
@@ -80,11 +94,9 @@ lsep --version
 
 Planned features for upcoming releases:
 
-- Remove duplicate PATH entries  
-- Count PATH entries  
-- Check PATH entry existence on disk  
 - Display PATH statistics  
-- Locate executables using PATH resolution  
+- Locate executables 
+- Filter entries
 - JSON output support  
 ---
 
